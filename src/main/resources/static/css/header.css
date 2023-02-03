@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Malgun Gothic';
+    background-color: #1e1f21;
+    cursor: default;
+}
+
+/*------.header시작------*/
+.header {
+    height: 60px;
+    background-color: #292a2d;
+}
+
+.header_menu {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu a {
+    color: #04cf5c;
+    line-height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.header_menu a:last-child {
+    margin-right: 0;
+}
+
+/*------.header끝------*/

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/*------.footer시작------*/
+.footer {
+    padding-top: 10px;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    background-color: #292a2d;
+}
+
+.footer div {
+    align-items: center;
+}
+
+.footer_menu {
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.footer_menu div {
+    color: #777777;
+    margin-right: 10px;
+}
+
+.footer_menu a {
+    color: #777777;
+    margin-right: 10px;
+}
+
+.footer_menu a:hover {
+    color: #d9d9d9;
+}
+
+.footer_info {
+    color: #777777;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.footer_languages {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer_languages .languages {
+    background-color: #343638;
+    border: 1px solid #343638;
+    border-radius: 5px;
+    display: inline-block;
+    font: inherit;
+    color: #cccccc;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-image:
+        linear-gradient(45deg, transparent 50%, #c2c9d2 50%),
+        linear-gradient(135deg, #c2c9d2 50%, transparent 50%),
+        radial-gradient(#343638 70%, transparent 72%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - .95em) .75em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1em 1em;
+    background-repeat: no-repeat;
+}
+
+/*------.footer끝------*/
